@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Zone Manager Monitoring System</string>
+    <string name="title_activity_main">Zone Manager Monitoring System</string>
+    <string name="package_name">com.muncipal.zonemanagermonit</string>
+    <string name="custom_url_scheme">com.muncipal.zonemanagermonit</string>
+</resources>

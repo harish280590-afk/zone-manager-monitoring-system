@@ -1,0 +1,22 @@
+{
+  "short_name": "ZMMS",
+  "name": "Zone Manager Monitoring System",
+  "description": "Field force management and GPS tracking system for Municipal Zone Managers",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=192&h=192&fit=crop&auto=format&q=60",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=512&h=512&fit=crop&auto=format&q=60",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#e65100",
+  "display": "standalone",
+  "orientation": "portrait"
+}

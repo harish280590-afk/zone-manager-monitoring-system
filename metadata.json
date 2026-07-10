@@ -1,0 +1,11 @@
+{
+  "name": "Zone Manager Monitoring System",
+  "description": "Zone Manager Monitoring System (ZMMS) is a field force management and GPS tracking system for Municipal Zone Managers to ensure transparency, accountability, attendance tracking, and live GPS monitoring.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

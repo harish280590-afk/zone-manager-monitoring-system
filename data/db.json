@@ -1,0 +1,4476 @@
+{
+  "managers": [
+    {
+      "id": "zm-1",
+      "name": "Rohan Sharma",
+      "phone": "9876543201",
+      "empId": "EMP202601",
+      "zone": "Zone 1 (North)",
+      "wards": [
+        1,
+        2
+      ],
+      "baseLat": 28.632,
+      "baseLng": 77.218,
+      "status": "checked-in",
+      "battery": 85,
+      "batteryStatus": "discharging",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "01:25 PM",
+      "currentLat": 28.635,
+      "currentLng": 77.21600000000001,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.632,
+          "lng": 77.218,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.635,
+          "lng": 77.21600000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.638,
+          "lng": 77.21900000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.636000000000003,
+          "lng": 77.223,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.631,
+          "lng": 77.22200000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.628,
+          "lng": 77.217,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.630000000000003,
+          "lng": 77.214,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.632,
+          "lng": 77.218,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 5,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.632,
+          "lng": 77.218,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.635,
+          "lng": 77.21600000000001,
+          "timestamp": "09:25 AM",
+          "speed": 16,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.638,
+          "lng": 77.21900000000001,
+          "timestamp": "10:10 AM",
+          "speed": 25,
+          "battery": 97,
+          "network": "5G"
+        },
+        {
+          "lat": 28.636000000000003,
+          "lng": 77.223,
+          "timestamp": "10:45 AM",
+          "speed": 33,
+          "battery": 97,
+          "network": "5G"
+        },
+        {
+          "lat": 28.631,
+          "lng": 77.22200000000001,
+          "timestamp": "11:05 AM",
+          "speed": 26,
+          "battery": 96,
+          "network": "5G"
+        },
+        {
+          "lat": 28.628,
+          "lng": 77.217,
+          "timestamp": "11:45 AM",
+          "speed": 22,
+          "battery": 92,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.630000000000003,
+          "lng": 77.214,
+          "timestamp": "12:15 PM",
+          "speed": 26,
+          "battery": 90,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.632,
+          "lng": 77.218,
+          "timestamp": "12:40 PM",
+          "speed": 32,
+          "battery": 89,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.632,
+          "lng": 77.218,
+          "timestamp": "12:55 PM",
+          "speed": 29,
+          "battery": 87,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.635,
+          "lng": 77.21600000000001,
+          "timestamp": "01:25 PM",
+          "speed": 33,
+          "battery": 85,
+          "network": "Offline"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:25 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:25 AM",
+          "departure": "10:10 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:10 AM",
+          "departure": "10:45 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:45 AM",
+          "departure": "11:05 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "11:05 AM",
+          "departure": "11:45 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:45 AM",
+          "departure": "12:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:15 PM",
+          "departure": "12:40 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:40 PM",
+          "departure": "12:55 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:55 PM",
+          "departure": "01:25 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:25 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659120167-zm-1",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.635,
+            "lng": 77.21600000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:25 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659228172-zm-1",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.638,
+            "lng": 77.21900000000001,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:10 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659312181-zm-1",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.636000000000003,
+            "lng": 77.223,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659360185-zm-1",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.631,
+            "lng": 77.22200000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "11:05 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659456193-zm-1",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.628,
+            "lng": 77.217,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659528201-zm-1",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.630000000000003,
+            "lng": 77.214,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659696295-zm-1",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 1,
+          "gps": {
+            "lat": 28.635,
+            "lng": 77.21600000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:25 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.632,
+        "checkInLng": 77.218,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 849.32,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-2",
+      "name": "Amit Patel",
+      "phone": "9876543202",
+      "empId": "EMP202602",
+      "zone": "Zone 2 (South)",
+      "wards": [
+        3,
+        4
+      ],
+      "baseLat": 28.595,
+      "baseLng": 77.201,
+      "status": "checked-in",
+      "battery": 77,
+      "batteryStatus": "discharging",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "01:25 PM",
+      "currentLat": 28.598,
+      "currentLng": 77.199,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.595,
+          "lng": 77.201,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.598,
+          "lng": 77.199,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.601,
+          "lng": 77.202,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.599,
+          "lng": 77.20599999999999,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.593999999999998,
+          "lng": 77.205,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.590999999999998,
+          "lng": 77.19999999999999,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.593,
+          "lng": 77.19699999999999,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.595,
+          "lng": 77.201,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 5,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.595,
+          "lng": 77.201,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.598,
+          "lng": 77.199,
+          "timestamp": "09:25 AM",
+          "speed": 20,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.601,
+          "lng": 77.202,
+          "timestamp": "10:10 AM",
+          "speed": 21,
+          "battery": 91,
+          "network": "5G"
+        },
+        {
+          "lat": 28.599,
+          "lng": 77.20599999999999,
+          "timestamp": "10:45 AM",
+          "speed": 19,
+          "battery": 88,
+          "network": "5G"
+        },
+        {
+          "lat": 28.593999999999998,
+          "lng": 77.205,
+          "timestamp": "11:05 AM",
+          "speed": 30,
+          "battery": 85,
+          "network": "5G"
+        },
+        {
+          "lat": 28.590999999999998,
+          "lng": 77.19999999999999,
+          "timestamp": "11:45 AM",
+          "speed": 20,
+          "battery": 82,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.593,
+          "lng": 77.19699999999999,
+          "timestamp": "12:15 PM",
+          "speed": 23,
+          "battery": 82,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.595,
+          "lng": 77.201,
+          "timestamp": "12:40 PM",
+          "speed": 24,
+          "battery": 80,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.595,
+          "lng": 77.201,
+          "timestamp": "12:55 PM",
+          "speed": 36,
+          "battery": 79,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.598,
+          "lng": 77.199,
+          "timestamp": "01:25 PM",
+          "speed": 15,
+          "battery": 78,
+          "network": "Offline"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:25 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:25 AM",
+          "departure": "10:10 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:10 AM",
+          "departure": "10:45 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:45 AM",
+          "departure": "11:05 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "11:05 AM",
+          "departure": "11:45 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:45 AM",
+          "departure": "12:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:15 PM",
+          "departure": "12:40 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:40 PM",
+          "departure": "12:55 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:55 PM",
+          "departure": "01:25 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:25 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659120167-zm-2",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.598,
+            "lng": 77.199,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:25 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659228172-zm-2",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.601,
+            "lng": 77.202,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:10 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659312181-zm-2",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.599,
+            "lng": 77.20599999999999,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659360185-zm-2",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.593999999999998,
+            "lng": 77.205,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "11:05 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659456193-zm-2",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.590999999999998,
+            "lng": 77.19999999999999,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659528201-zm-2",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.593,
+            "lng": 77.19699999999999,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659696295-zm-2",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 3,
+          "gps": {
+            "lat": 28.598,
+            "lng": 77.199,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:25 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.595,
+        "checkInLng": 77.201,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 852.32,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-3",
+      "name": "Priyanka Sen",
+      "phone": "9876543203",
+      "empId": "EMP202603",
+      "zone": "Zone 3 (East)",
+      "wards": [
+        5,
+        6
+      ],
+      "baseLat": 28.621,
+      "baseLng": 77.245,
+      "status": "checked-in",
+      "battery": 77,
+      "batteryStatus": "discharging",
+      "network": "4G",
+      "speed": 0,
+      "lastUpdate": "01:15 PM",
+      "currentLat": 28.624,
+      "currentLng": 77.24300000000001,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.621,
+          "lng": 77.245,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.624,
+          "lng": 77.24300000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.627,
+          "lng": 77.24600000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.625,
+          "lng": 77.25,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.619999999999997,
+          "lng": 77.24900000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.616999999999997,
+          "lng": 77.244,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.619,
+          "lng": 77.241,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.245,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 15,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.621,
+          "lng": 77.245,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.624,
+          "lng": 77.24300000000001,
+          "timestamp": "09:15 AM",
+          "speed": 15,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.627,
+          "lng": 77.24600000000001,
+          "timestamp": "10:00 AM",
+          "speed": 32,
+          "battery": 96,
+          "network": "5G"
+        },
+        {
+          "lat": 28.625,
+          "lng": 77.25,
+          "timestamp": "10:35 AM",
+          "speed": 24,
+          "battery": 93,
+          "network": "5G"
+        },
+        {
+          "lat": 28.619999999999997,
+          "lng": 77.24900000000001,
+          "timestamp": "10:55 AM",
+          "speed": 36,
+          "battery": 92,
+          "network": "5G"
+        },
+        {
+          "lat": 28.616999999999997,
+          "lng": 77.244,
+          "timestamp": "11:35 AM",
+          "speed": 34,
+          "battery": 86,
+          "network": "5G"
+        },
+        {
+          "lat": 28.619,
+          "lng": 77.241,
+          "timestamp": "12:05 PM",
+          "speed": 30,
+          "battery": 83,
+          "network": "5G"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.245,
+          "timestamp": "12:30 PM",
+          "speed": 20,
+          "battery": 82,
+          "network": "5G"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.245,
+          "timestamp": "12:45 PM",
+          "speed": 39,
+          "battery": 82,
+          "network": "5G"
+        },
+        {
+          "lat": 28.624,
+          "lng": 77.24300000000001,
+          "timestamp": "01:15 PM",
+          "speed": 17,
+          "battery": 79,
+          "network": "5G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:15 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:15 AM",
+          "departure": "10:00 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:00 AM",
+          "departure": "10:35 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:35 AM",
+          "departure": "10:55 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "10:55 AM",
+          "departure": "11:35 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:35 AM",
+          "departure": "12:05 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:05 PM",
+          "departure": "12:30 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:30 PM",
+          "departure": "12:45 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:45 PM",
+          "departure": "01:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:15 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659096164-zm-3",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.624,
+            "lng": 77.24300000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:15 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659204171-zm-3",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.627,
+            "lng": 77.24600000000001,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:00 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659288179-zm-3",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.625,
+            "lng": 77.25,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659336183-zm-3",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.619999999999997,
+            "lng": 77.24900000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "10:55 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659432191-zm-3",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.616999999999997,
+            "lng": 77.244,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659504198-zm-3",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.619,
+            "lng": 77.241,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:05 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659672292-zm-3",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 5,
+          "gps": {
+            "lat": 28.624,
+            "lng": 77.24300000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.621,
+        "checkInLng": 77.245,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 923.41,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-4",
+      "name": "Vikram Rao",
+      "phone": "9876543204",
+      "empId": "EMP202604",
+      "zone": "Zone 4 (West)",
+      "wards": [
+        7,
+        8
+      ],
+      "baseLat": 28.611,
+      "baseLng": 77.168,
+      "status": "checked-in",
+      "battery": 83,
+      "batteryStatus": "discharging",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "01:15 PM",
+      "currentLat": 28.614,
+      "currentLng": 77.16600000000001,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.611,
+          "lng": 77.168,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.614,
+          "lng": 77.16600000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.617,
+          "lng": 77.16900000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.615000000000002,
+          "lng": 77.173,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.61,
+          "lng": 77.17200000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.607,
+          "lng": 77.167,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.609,
+          "lng": 77.164,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.168,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 15,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.611,
+          "lng": 77.168,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.614,
+          "lng": 77.16600000000001,
+          "timestamp": "09:15 AM",
+          "speed": 33,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.617,
+          "lng": 77.16900000000001,
+          "timestamp": "10:00 AM",
+          "speed": 20,
+          "battery": 95,
+          "network": "5G"
+        },
+        {
+          "lat": 28.615000000000002,
+          "lng": 77.173,
+          "timestamp": "10:35 AM",
+          "speed": 29,
+          "battery": 92,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.61,
+          "lng": 77.17200000000001,
+          "timestamp": "10:55 AM",
+          "speed": 36,
+          "battery": 90,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.607,
+          "lng": 77.167,
+          "timestamp": "11:35 AM",
+          "speed": 37,
+          "battery": 89,
+          "network": "4G"
+        },
+        {
+          "lat": 28.609,
+          "lng": 77.164,
+          "timestamp": "12:05 PM",
+          "speed": 29,
+          "battery": 87,
+          "network": "4G"
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.168,
+          "timestamp": "12:30 PM",
+          "speed": 21,
+          "battery": 87,
+          "network": "5G"
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.168,
+          "timestamp": "12:45 PM",
+          "speed": 22,
+          "battery": 86,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.614,
+          "lng": 77.16600000000001,
+          "timestamp": "01:15 PM",
+          "speed": 37,
+          "battery": 83,
+          "network": "Offline"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:15 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:15 AM",
+          "departure": "10:00 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:00 AM",
+          "departure": "10:35 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:35 AM",
+          "departure": "10:55 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "10:55 AM",
+          "departure": "11:35 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:35 AM",
+          "departure": "12:05 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:05 PM",
+          "departure": "12:30 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:30 PM",
+          "departure": "12:45 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:45 PM",
+          "departure": "01:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:15 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659096164-zm-4",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.614,
+            "lng": 77.16600000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:15 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659204171-zm-4",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.617,
+            "lng": 77.16900000000001,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:00 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659288179-zm-4",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.615000000000002,
+            "lng": 77.173,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659336183-zm-4",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.61,
+            "lng": 77.17200000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "10:55 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659432191-zm-4",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.607,
+            "lng": 77.167,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659504198-zm-4",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.609,
+            "lng": 77.164,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:05 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659672292-zm-4",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 7,
+          "gps": {
+            "lat": 28.614,
+            "lng": 77.16600000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.611,
+        "checkInLng": 77.168,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 926.41,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-5",
+      "name": "Karan Johar",
+      "phone": "9876543205",
+      "empId": "EMP202605",
+      "zone": "Zone 5 (North-East)",
+      "wards": [
+        9,
+        10
+      ],
+      "baseLat": 28.645,
+      "baseLng": 77.235,
+      "status": "checked-out",
+      "battery": 100,
+      "batteryStatus": "unknown",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "09:00 AM",
+      "currentLat": 28.645,
+      "currentLng": 77.235,
+      "currentAddress": "Zone Headquarters Office",
+      "routePoints": [
+        {
+          "lat": 28.645,
+          "lng": 77.235,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.648,
+          "lng": 77.233,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.651,
+          "lng": 77.236,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.649,
+          "lng": 77.24,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.644,
+          "lng": 77.239,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.641,
+          "lng": 77.234,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.643,
+          "lng": 77.231,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.645,
+          "lng": 77.235,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 0,
+      "tickAccumulator": 10,
+      "distanceTravelledKm": 0,
+      "workingHours": 0,
+      "idleTimeMin": 0,
+      "totalStops": 0,
+      "pathHistory": [],
+      "visitedPlaces": [],
+      "activities": [],
+      "attendance": null,
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 914.88,
+        "activitiesCompleted": 25,
+        "responseTimeMinutes": 24,
+        "productivityScore": 100
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-6",
+      "name": "Sneha Reddy",
+      "phone": "9876543206",
+      "empId": "EMP202606",
+      "zone": "Zone 6 (North-West)",
+      "wards": [
+        11,
+        12
+      ],
+      "baseLat": 28.652,
+      "baseLng": 77.185,
+      "status": "checked-in",
+      "battery": 81,
+      "batteryStatus": "discharging",
+      "network": "5G",
+      "speed": 0,
+      "lastUpdate": "01:15 PM",
+      "currentLat": 28.655,
+      "currentLng": 77.183,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.652,
+          "lng": 77.185,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.655,
+          "lng": 77.183,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.658,
+          "lng": 77.186,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.656000000000002,
+          "lng": 77.19,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.651,
+          "lng": 77.18900000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.648,
+          "lng": 77.184,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.650000000000002,
+          "lng": 77.181,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.652,
+          "lng": 77.185,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 15,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.652,
+          "lng": 77.185,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.655,
+          "lng": 77.183,
+          "timestamp": "09:15 AM",
+          "speed": 25,
+          "battery": 99,
+          "network": "5G"
+        },
+        {
+          "lat": 28.658,
+          "lng": 77.186,
+          "timestamp": "10:00 AM",
+          "speed": 37,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.656000000000002,
+          "lng": 77.19,
+          "timestamp": "10:35 AM",
+          "speed": 25,
+          "battery": 93,
+          "network": "5G"
+        },
+        {
+          "lat": 28.651,
+          "lng": 77.18900000000001,
+          "timestamp": "10:55 AM",
+          "speed": 16,
+          "battery": 92,
+          "network": "5G"
+        },
+        {
+          "lat": 28.648,
+          "lng": 77.184,
+          "timestamp": "11:35 AM",
+          "speed": 24,
+          "battery": 89,
+          "network": "5G"
+        },
+        {
+          "lat": 28.650000000000002,
+          "lng": 77.181,
+          "timestamp": "12:05 PM",
+          "speed": 24,
+          "battery": 87,
+          "network": "5G"
+        },
+        {
+          "lat": 28.652,
+          "lng": 77.185,
+          "timestamp": "12:30 PM",
+          "speed": 30,
+          "battery": 86,
+          "network": "5G"
+        },
+        {
+          "lat": 28.652,
+          "lng": 77.185,
+          "timestamp": "12:45 PM",
+          "speed": 28,
+          "battery": 85,
+          "network": "5G"
+        },
+        {
+          "lat": 28.655,
+          "lng": 77.183,
+          "timestamp": "01:15 PM",
+          "speed": 36,
+          "battery": 81,
+          "network": "5G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:15 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:15 AM",
+          "departure": "10:00 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:00 AM",
+          "departure": "10:35 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:35 AM",
+          "departure": "10:55 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "10:55 AM",
+          "departure": "11:35 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:35 AM",
+          "departure": "12:05 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:05 PM",
+          "departure": "12:30 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:30 PM",
+          "departure": "12:45 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:45 PM",
+          "departure": "01:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:15 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659096164-zm-6",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.655,
+            "lng": 77.183,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:15 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659204171-zm-6",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.658,
+            "lng": 77.186,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:00 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659288179-zm-6",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.656000000000002,
+            "lng": 77.19,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659336183-zm-6",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.651,
+            "lng": 77.18900000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "10:55 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659432191-zm-6",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.648,
+            "lng": 77.184,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659504198-zm-6",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.650000000000002,
+            "lng": 77.181,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:05 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659672292-zm-6",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 11,
+          "gps": {
+            "lat": 28.655,
+            "lng": 77.183,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.652,
+        "checkInLng": 77.185,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 932.41,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-7",
+      "name": "Rajesh Kumar",
+      "phone": "9876543207",
+      "empId": "EMP202607",
+      "zone": "Zone 7 (South-East)",
+      "wards": [
+        13,
+        14
+      ],
+      "baseLat": 28.575,
+      "baseLng": 77.23,
+      "status": "checked-in",
+      "battery": 83,
+      "batteryStatus": "discharging",
+      "network": "5G",
+      "speed": 0,
+      "lastUpdate": "01:25 PM",
+      "currentLat": 28.578,
+      "currentLng": 77.22800000000001,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.575,
+          "lng": 77.23,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.578,
+          "lng": 77.22800000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.581,
+          "lng": 77.23100000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.579,
+          "lng": 77.235,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.573999999999998,
+          "lng": 77.23400000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.570999999999998,
+          "lng": 77.229,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.573,
+          "lng": 77.226,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.575,
+          "lng": 77.23,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 5,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.575,
+          "lng": 77.23,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.578,
+          "lng": 77.22800000000001,
+          "timestamp": "09:25 AM",
+          "speed": 32,
+          "battery": 99,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.581,
+          "lng": 77.23100000000001,
+          "timestamp": "10:10 AM",
+          "speed": 36,
+          "battery": 96,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.579,
+          "lng": 77.235,
+          "timestamp": "10:45 AM",
+          "speed": 33,
+          "battery": 94,
+          "network": "4G"
+        },
+        {
+          "lat": 28.573999999999998,
+          "lng": 77.23400000000001,
+          "timestamp": "11:05 AM",
+          "speed": 24,
+          "battery": 92,
+          "network": "4G"
+        },
+        {
+          "lat": 28.570999999999998,
+          "lng": 77.229,
+          "timestamp": "11:45 AM",
+          "speed": 37,
+          "battery": 90,
+          "network": "5G"
+        },
+        {
+          "lat": 28.573,
+          "lng": 77.226,
+          "timestamp": "12:15 PM",
+          "speed": 33,
+          "battery": 88,
+          "network": "5G"
+        },
+        {
+          "lat": 28.575,
+          "lng": 77.23,
+          "timestamp": "12:40 PM",
+          "speed": 35,
+          "battery": 86,
+          "network": "5G"
+        },
+        {
+          "lat": 28.575,
+          "lng": 77.23,
+          "timestamp": "12:55 PM",
+          "speed": 30,
+          "battery": 85,
+          "network": "5G"
+        },
+        {
+          "lat": 28.578,
+          "lng": 77.22800000000001,
+          "timestamp": "01:25 PM",
+          "speed": 27,
+          "battery": 83,
+          "network": "5G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:25 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:25 AM",
+          "departure": "10:10 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:10 AM",
+          "departure": "10:45 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:45 AM",
+          "departure": "11:05 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "11:05 AM",
+          "departure": "11:45 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:45 AM",
+          "departure": "12:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:15 PM",
+          "departure": "12:40 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:40 PM",
+          "departure": "12:55 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:55 PM",
+          "departure": "01:25 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:25 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659120167-zm-7",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.578,
+            "lng": 77.22800000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:25 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659228172-zm-7",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.581,
+            "lng": 77.23100000000001,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:10 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659312181-zm-7",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.579,
+            "lng": 77.235,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659360185-zm-7",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.573999999999998,
+            "lng": 77.23400000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "11:05 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659456193-zm-7",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.570999999999998,
+            "lng": 77.229,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659528201-zm-7",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.573,
+            "lng": 77.226,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659696295-zm-7",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 13,
+          "gps": {
+            "lat": 28.578,
+            "lng": 77.22800000000001,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:25 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.575,
+        "checkInLng": 77.23,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 867.32,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-8",
+      "name": "Anjali Gupta",
+      "phone": "9876543208",
+      "empId": "EMP202608",
+      "zone": "Zone 8 (South-West)",
+      "wards": [
+        15,
+        16
+      ],
+      "baseLat": 28.568,
+      "baseLng": 77.155,
+      "status": "checked-in",
+      "battery": 87,
+      "batteryStatus": "discharging",
+      "network": "4G",
+      "speed": 0,
+      "lastUpdate": "01:15 PM",
+      "currentLat": 28.571,
+      "currentLng": 77.153,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.568,
+          "lng": 77.155,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.571,
+          "lng": 77.153,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.574,
+          "lng": 77.156,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.572000000000003,
+          "lng": 77.16,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.567,
+          "lng": 77.159,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.564,
+          "lng": 77.154,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.566000000000003,
+          "lng": 77.151,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.568,
+          "lng": 77.155,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 15,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.568,
+          "lng": 77.155,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.571,
+          "lng": 77.153,
+          "timestamp": "09:15 AM",
+          "speed": 30,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.574,
+          "lng": 77.156,
+          "timestamp": "10:00 AM",
+          "speed": 35,
+          "battery": 99,
+          "network": "5G"
+        },
+        {
+          "lat": 28.572000000000003,
+          "lng": 77.16,
+          "timestamp": "10:35 AM",
+          "speed": 17,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.567,
+          "lng": 77.159,
+          "timestamp": "10:55 AM",
+          "speed": 20,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.564,
+          "lng": 77.154,
+          "timestamp": "11:35 AM",
+          "speed": 33,
+          "battery": 94,
+          "network": "4G"
+        },
+        {
+          "lat": 28.566000000000003,
+          "lng": 77.151,
+          "timestamp": "12:05 PM",
+          "speed": 16,
+          "battery": 91,
+          "network": "4G"
+        },
+        {
+          "lat": 28.568,
+          "lng": 77.155,
+          "timestamp": "12:30 PM",
+          "speed": 20,
+          "battery": 90,
+          "network": "4G"
+        },
+        {
+          "lat": 28.568,
+          "lng": 77.155,
+          "timestamp": "12:45 PM",
+          "speed": 26,
+          "battery": 90,
+          "network": "4G"
+        },
+        {
+          "lat": 28.571,
+          "lng": 77.153,
+          "timestamp": "01:15 PM",
+          "speed": 31,
+          "battery": 89,
+          "network": "4G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:15 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:15 AM",
+          "departure": "10:00 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:00 AM",
+          "departure": "10:35 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:35 AM",
+          "departure": "10:55 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "10:55 AM",
+          "departure": "11:35 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:35 AM",
+          "departure": "12:05 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:05 PM",
+          "departure": "12:30 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:30 PM",
+          "departure": "12:45 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:45 PM",
+          "departure": "01:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:15 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659096164-zm-8",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.571,
+            "lng": 77.153,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:15 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659204171-zm-8",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.574,
+            "lng": 77.156,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:00 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659288179-zm-8",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.572000000000003,
+            "lng": 77.16,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659336183-zm-8",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.567,
+            "lng": 77.159,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "10:55 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659432191-zm-8",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.564,
+            "lng": 77.154,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659504198-zm-8",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.566000000000003,
+            "lng": 77.151,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:05 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659672292-zm-8",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 15,
+          "gps": {
+            "lat": 28.571,
+            "lng": 77.153,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.568,
+        "checkInLng": 77.155,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 938.28,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-9",
+      "name": "Sanjay Verma",
+      "phone": "9876543209",
+      "empId": "EMP202609",
+      "zone": "Zone 9 (Central-North)",
+      "wards": [
+        17,
+        18
+      ],
+      "baseLat": 28.625,
+      "baseLng": 77.208,
+      "status": "checked-in",
+      "battery": 86,
+      "batteryStatus": "discharging",
+      "network": "4G",
+      "speed": 0,
+      "lastUpdate": "01:25 PM",
+      "currentLat": 28.628,
+      "currentLng": 77.206,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.625,
+          "lng": 77.208,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.628,
+          "lng": 77.206,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.631,
+          "lng": 77.209,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.629,
+          "lng": 77.213,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.624,
+          "lng": 77.212,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.207,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.623,
+          "lng": 77.204,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.625,
+          "lng": 77.208,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 5,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.625,
+          "lng": 77.208,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.628,
+          "lng": 77.206,
+          "timestamp": "09:25 AM",
+          "speed": 22,
+          "battery": 98,
+          "network": "5G"
+        },
+        {
+          "lat": 28.631,
+          "lng": 77.209,
+          "timestamp": "10:10 AM",
+          "speed": 29,
+          "battery": 96,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.629,
+          "lng": 77.213,
+          "timestamp": "10:45 AM",
+          "speed": 24,
+          "battery": 93,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.624,
+          "lng": 77.212,
+          "timestamp": "11:05 AM",
+          "speed": 17,
+          "battery": 92,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.207,
+          "timestamp": "11:45 AM",
+          "speed": 15,
+          "battery": 91,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.623,
+          "lng": 77.204,
+          "timestamp": "12:15 PM",
+          "speed": 23,
+          "battery": 90,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.625,
+          "lng": 77.208,
+          "timestamp": "12:40 PM",
+          "speed": 19,
+          "battery": 88,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.625,
+          "lng": 77.208,
+          "timestamp": "12:55 PM",
+          "speed": 35,
+          "battery": 88,
+          "network": "4G"
+        },
+        {
+          "lat": 28.628,
+          "lng": 77.206,
+          "timestamp": "01:25 PM",
+          "speed": 26,
+          "battery": 87,
+          "network": "4G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:25 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:25 AM",
+          "departure": "10:10 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:10 AM",
+          "departure": "10:45 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:45 AM",
+          "departure": "11:05 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "11:05 AM",
+          "departure": "11:45 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:45 AM",
+          "departure": "12:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:15 PM",
+          "departure": "12:40 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:40 PM",
+          "departure": "12:55 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:55 PM",
+          "departure": "01:25 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:25 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659120167-zm-9",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.628,
+            "lng": 77.206,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:25 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659228172-zm-9",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.631,
+            "lng": 77.209,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:10 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659312181-zm-9",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.629,
+            "lng": 77.213,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659360185-zm-9",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.624,
+            "lng": 77.212,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "11:05 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659456193-zm-9",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.621,
+            "lng": 77.207,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659528201-zm-9",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.623,
+            "lng": 77.204,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659696295-zm-9",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 17,
+          "gps": {
+            "lat": 28.628,
+            "lng": 77.206,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:25 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.625,
+        "checkInLng": 77.208,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 873.2,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 24,
+        "productivityScore": 88
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-10",
+      "name": "Meera Nair",
+      "phone": "9876543210",
+      "empId": "EMP202610",
+      "zone": "Zone 10 (Central-South)",
+      "wards": [
+        19,
+        20
+      ],
+      "baseLat": 28.588,
+      "baseLng": 77.215,
+      "status": "checked-out",
+      "battery": 100,
+      "batteryStatus": "unknown",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "09:00 AM",
+      "currentLat": 28.588,
+      "currentLng": 77.215,
+      "currentAddress": "Zone Headquarters Office",
+      "routePoints": [
+        {
+          "lat": 28.588,
+          "lng": 77.215,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.591,
+          "lng": 77.21300000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.594,
+          "lng": 77.21600000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.592000000000002,
+          "lng": 77.22,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.587,
+          "lng": 77.21900000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.584,
+          "lng": 77.214,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.586000000000002,
+          "lng": 77.211,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.588,
+          "lng": 77.215,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 0,
+      "tickAccumulator": 0,
+      "distanceTravelledKm": 0,
+      "workingHours": 0,
+      "idleTimeMin": 0,
+      "totalStops": 0,
+      "pathHistory": [],
+      "visitedPlaces": [],
+      "activities": [],
+      "attendance": null,
+      "performance": {
+        "attendanceRate": 94,
+        "workingHoursTotal": 38,
+        "distanceTotal": 999.08,
+        "activitiesCompleted": 26,
+        "responseTimeMinutes": 24,
+        "productivityScore": 100
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-11",
+      "name": "Deepak Joshi",
+      "phone": "9876543211",
+      "empId": "EMP202611",
+      "zone": "Zone 11 (Central-East)",
+      "wards": [
+        21,
+        22
+      ],
+      "baseLat": 28.615,
+      "baseLng": 77.232,
+      "status": "checked-in",
+      "battery": 77,
+      "batteryStatus": "discharging",
+      "network": "4G",
+      "speed": 0,
+      "lastUpdate": "01:15 PM",
+      "currentLat": 28.618,
+      "currentLng": 77.23,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.615,
+          "lng": 77.232,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.618,
+          "lng": 77.23,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.233,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.619,
+          "lng": 77.237,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.613999999999997,
+          "lng": 77.236,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.610999999999997,
+          "lng": 77.231,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.613,
+          "lng": 77.228,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.615,
+          "lng": 77.232,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 15,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.615,
+          "lng": 77.232,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.618,
+          "lng": 77.23,
+          "timestamp": "09:15 AM",
+          "speed": 19,
+          "battery": 99,
+          "network": "5G"
+        },
+        {
+          "lat": 28.621,
+          "lng": 77.233,
+          "timestamp": "10:00 AM",
+          "speed": 32,
+          "battery": 96,
+          "network": "5G"
+        },
+        {
+          "lat": 28.619,
+          "lng": 77.237,
+          "timestamp": "10:35 AM",
+          "speed": 29,
+          "battery": 93,
+          "network": "5G"
+        },
+        {
+          "lat": 28.613999999999997,
+          "lng": 77.236,
+          "timestamp": "10:55 AM",
+          "speed": 21,
+          "battery": 91,
+          "network": "5G"
+        },
+        {
+          "lat": 28.610999999999997,
+          "lng": 77.231,
+          "timestamp": "11:35 AM",
+          "speed": 34,
+          "battery": 88,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.613,
+          "lng": 77.228,
+          "timestamp": "12:05 PM",
+          "speed": 21,
+          "battery": 84,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.615,
+          "lng": 77.232,
+          "timestamp": "12:30 PM",
+          "speed": 38,
+          "battery": 83,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.615,
+          "lng": 77.232,
+          "timestamp": "12:45 PM",
+          "speed": 29,
+          "battery": 82,
+          "network": "Offline"
+        },
+        {
+          "lat": 28.618,
+          "lng": 77.23,
+          "timestamp": "01:15 PM",
+          "speed": 30,
+          "battery": 79,
+          "network": "4G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:15 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:15 AM",
+          "departure": "10:00 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:00 AM",
+          "departure": "10:35 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:35 AM",
+          "departure": "10:55 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "10:55 AM",
+          "departure": "11:35 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:35 AM",
+          "departure": "12:05 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:05 PM",
+          "departure": "12:30 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:30 PM",
+          "departure": "12:45 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:45 PM",
+          "departure": "01:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:15 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659096164-zm-11",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.618,
+            "lng": 77.23,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:15 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659204171-zm-11",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.621,
+            "lng": 77.233,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:00 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659288179-zm-11",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.619,
+            "lng": 77.237,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659336183-zm-11",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.613999999999997,
+            "lng": 77.236,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "10:55 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659432191-zm-11",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.610999999999997,
+            "lng": 77.231,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:35 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659504198-zm-11",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.613,
+            "lng": 77.228,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:05 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659672292-zm-11",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 21,
+          "gps": {
+            "lat": 28.618,
+            "lng": 77.23,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.615,
+        "checkInLng": 77.232,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 0,
+        "workingHoursTotal": 0,
+        "distanceTotal": 491.26,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 0,
+        "productivityScore": 51
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-12",
+      "name": "Sunita Rao",
+      "phone": "9876543212",
+      "empId": "EMP202612",
+      "zone": "Zone 12 (Central-West)",
+      "wards": [
+        23,
+        24
+      ],
+      "baseLat": 28.608,
+      "baseLng": 77.188,
+      "status": "checked-in",
+      "battery": 85,
+      "batteryStatus": "discharging",
+      "network": "5G",
+      "speed": 0,
+      "lastUpdate": "01:25 PM",
+      "currentLat": 28.611,
+      "currentLng": 77.186,
+      "currentAddress": "Ward Sanitation Office",
+      "routePoints": [
+        {
+          "lat": 28.608,
+          "lng": 77.188,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.186,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.614,
+          "lng": 77.18900000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.612000000000002,
+          "lng": 77.193,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.607,
+          "lng": 77.19200000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.604,
+          "lng": 77.187,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.606,
+          "lng": 77.184,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.608,
+          "lng": 77.188,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 1,
+      "tickAccumulator": 5,
+      "distanceTravelledKm": 5.23,
+      "workingHours": 4.4,
+      "idleTimeMin": 230,
+      "totalStops": 9,
+      "pathHistory": [
+        {
+          "lat": 28.608,
+          "lng": 77.188,
+          "timestamp": "09:00 AM",
+          "speed": 0,
+          "battery": 100,
+          "network": "5G"
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.186,
+          "timestamp": "09:25 AM",
+          "speed": 17,
+          "battery": 99,
+          "network": "5G"
+        },
+        {
+          "lat": 28.614,
+          "lng": 77.18900000000001,
+          "timestamp": "10:10 AM",
+          "speed": 31,
+          "battery": 97,
+          "network": "5G"
+        },
+        {
+          "lat": 28.612000000000002,
+          "lng": 77.193,
+          "timestamp": "10:45 AM",
+          "speed": 19,
+          "battery": 96,
+          "network": "5G"
+        },
+        {
+          "lat": 28.607,
+          "lng": 77.19200000000001,
+          "timestamp": "11:05 AM",
+          "speed": 32,
+          "battery": 94,
+          "network": "5G"
+        },
+        {
+          "lat": 28.604,
+          "lng": 77.187,
+          "timestamp": "11:45 AM",
+          "speed": 20,
+          "battery": 90,
+          "network": "5G"
+        },
+        {
+          "lat": 28.606,
+          "lng": 77.184,
+          "timestamp": "12:15 PM",
+          "speed": 34,
+          "battery": 88,
+          "network": "5G"
+        },
+        {
+          "lat": 28.608,
+          "lng": 77.188,
+          "timestamp": "12:40 PM",
+          "speed": 22,
+          "battery": 86,
+          "network": "5G"
+        },
+        {
+          "lat": 28.608,
+          "lng": 77.188,
+          "timestamp": "12:55 PM",
+          "speed": 33,
+          "battery": 86,
+          "network": "5G"
+        },
+        {
+          "lat": 28.611,
+          "lng": 77.186,
+          "timestamp": "01:25 PM",
+          "speed": 15,
+          "battery": 85,
+          "network": "5G"
+        }
+      ],
+      "visitedPlaces": [
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "09:00 AM",
+          "departure": "09:25 AM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "09:25 AM",
+          "departure": "10:10 AM",
+          "durationMin": 45,
+          "distancePrev": 0.55
+        },
+        {
+          "name": "Garbage Transfer Station",
+          "arrival": "10:10 AM",
+          "departure": "10:45 AM",
+          "durationMin": 35,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Public Toilet Complex A",
+          "arrival": "10:45 AM",
+          "departure": "11:05 AM",
+          "durationMin": 20,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Citizen Complaint #4019 Point",
+          "arrival": "11:05 AM",
+          "departure": "11:45 AM",
+          "durationMin": 40,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Open Depot Point & Waste Heap",
+          "arrival": "11:45 AM",
+          "departure": "12:15 PM",
+          "durationMin": 30,
+          "distancePrev": 0.89
+        },
+        {
+          "name": "Community Toilet Complex B",
+          "arrival": "12:15 PM",
+          "departure": "12:40 PM",
+          "durationMin": 25,
+          "distancePrev": 0.56
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:40 PM",
+          "departure": "12:55 PM",
+          "durationMin": 15,
+          "distancePrev": 0.67
+        },
+        {
+          "name": "Zone Headquarters Office",
+          "arrival": "12:55 PM",
+          "departure": "01:25 PM",
+          "durationMin": 30,
+          "distancePrev": 0
+        },
+        {
+          "name": "Ward Sanitation Office",
+          "arrival": "01:25 PM",
+          "departure": "",
+          "durationMin": 0,
+          "distancePrev": 0.55
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-auto-1783659120167-zm-12",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.611,
+            "lng": 77.186,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "09:25 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659228172-zm-12",
+          "title": "Simulated Transfer Station Inspection",
+          "category": "Transfer Station Inspection",
+          "description": "Automatically completed point sanitation checklist at Garbage Transfer Station. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.614,
+            "lng": 77.18900000000001,
+            "address": "Garbage Transfer Station"
+          },
+          "timestamp": "10:10 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659312181-zm-12",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Public Toilet Complex A. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.612000000000002,
+            "lng": 77.193,
+            "address": "Public Toilet Complex A"
+          },
+          "timestamp": "10:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659360185-zm-12",
+          "title": "Simulated Citizen Complaint",
+          "category": "Citizen Complaint",
+          "description": "Automatically completed point sanitation checklist at Citizen Complaint #4019 Point. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.607,
+            "lng": 77.19200000000001,
+            "address": "Citizen Complaint #4019 Point"
+          },
+          "timestamp": "11:05 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659456193-zm-12",
+          "title": "Simulated Open Depot Inspection",
+          "category": "Open Depot Inspection",
+          "description": "Automatically completed point sanitation checklist at Open Depot Point & Waste Heap. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.604,
+            "lng": 77.187,
+            "address": "Open Depot Point & Waste Heap"
+          },
+          "timestamp": "11:45 AM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659528202-zm-12",
+          "title": "Simulated Public Toilet Inspection",
+          "category": "Public Toilet Inspection",
+          "description": "Automatically completed point sanitation checklist at Community Toilet Complex B. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.606,
+            "lng": 77.184,
+            "address": "Community Toilet Complex B"
+          },
+          "timestamp": "12:15 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1574127242631-29188e7a8698?w=600&auto=format&fit=crop&q=60"
+        },
+        {
+          "id": "act-auto-1783659696295-zm-12",
+          "title": "Simulated Ward Inspection",
+          "category": "Ward Inspection",
+          "description": "Automatically completed point sanitation checklist at Ward Sanitation Office. Sweepers logged, trash volume checked.",
+          "wardNum": 23,
+          "gps": {
+            "lat": 28.611,
+            "lng": 77.186,
+            "address": "Ward Sanitation Office"
+          },
+          "timestamp": "01:25 PM",
+          "remarks": "Standard visual parameter inspection: Satisfactory.",
+          "status": "Pending",
+          "photo": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?w=600&auto=format&fit=crop&q=60"
+        }
+      ],
+      "attendance": {
+        "checkInTime": "09:00 AM",
+        "checkInLat": 28.608,
+        "checkInLng": 77.188,
+        "checkInAddress": "Zone Headquarters Office",
+        "checkInDevice": "Realme Pro 12 - Android 14",
+        "checkInNetwork": "5G",
+        "checkInBattery": 100,
+        "checkInPhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60"
+      },
+      "performance": {
+        "attendanceRate": 0,
+        "workingHoursTotal": 0,
+        "distanceTotal": 559.57,
+        "activitiesCompleted": 17,
+        "responseTimeMinutes": 0,
+        "productivityScore": 51
+      },
+      "sos": false
+    },
+    {
+      "id": "zm-13",
+      "name": "Abhishek Singh",
+      "phone": "9876543213",
+      "empId": "EMP202613",
+      "zone": "Zone 13 (Core Center)",
+      "wards": [
+        25,
+        26
+      ],
+      "baseLat": 28.6139,
+      "baseLng": 77.209,
+      "status": "checked-out",
+      "battery": 100,
+      "batteryStatus": "unknown",
+      "network": "Offline",
+      "speed": 0,
+      "lastUpdate": "09:00 AM",
+      "currentLat": 28.6139,
+      "currentLng": 77.209,
+      "currentAddress": "Zone Headquarters Office",
+      "routePoints": [
+        {
+          "lat": 28.6139,
+          "lng": 77.209,
+          "label": "Zone Headquarters Office",
+          "durationMin": 30
+        },
+        {
+          "lat": 28.6169,
+          "lng": 77.20700000000001,
+          "label": "Ward Sanitation Office",
+          "durationMin": 45,
+          "activityTrigger": "Ward Inspection"
+        },
+        {
+          "lat": 28.6199,
+          "lng": 77.21000000000001,
+          "label": "Garbage Transfer Station",
+          "durationMin": 35,
+          "activityTrigger": "Transfer Station Inspection"
+        },
+        {
+          "lat": 28.617900000000002,
+          "lng": 77.214,
+          "label": "Public Toilet Complex A",
+          "durationMin": 20,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.6129,
+          "lng": 77.21300000000001,
+          "label": "Citizen Complaint #4019 Point",
+          "durationMin": 40,
+          "activityTrigger": "Citizen Complaint"
+        },
+        {
+          "lat": 28.6099,
+          "lng": 77.208,
+          "label": "Open Depot Point & Waste Heap",
+          "durationMin": 30,
+          "activityTrigger": "Open Depot Inspection"
+        },
+        {
+          "lat": 28.611900000000002,
+          "lng": 77.205,
+          "label": "Community Toilet Complex B",
+          "durationMin": 25,
+          "activityTrigger": "Public Toilet Inspection"
+        },
+        {
+          "lat": 28.6139,
+          "lng": 77.209,
+          "label": "Zone Headquarters Office",
+          "durationMin": 15
+        }
+      ],
+      "currentRouteIndex": 0,
+      "tickAccumulator": 0,
+      "distanceTravelledKm": 0,
+      "workingHours": 0,
+      "idleTimeMin": 0,
+      "totalStops": 0,
+      "pathHistory": [],
+      "visitedPlaces": [],
+      "activities": [],
+      "attendance": null,
+      "performance": {
+        "attendanceRate": 0,
+        "workingHoursTotal": 0,
+        "distanceTotal": 546.07,
+        "activitiesCompleted": 26,
+        "responseTimeMinutes": 0,
+        "productivityScore": 100
+      },
+      "sos": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Verify Transfer Station Waste Clearance",
+      "desc": "Inspect the garbage accumulation and clearance rate at Ward 3 Transfer Station.",
+      "priority": "High",
+      "ward": 3,
+      "managerId": "zm-2",
+      "deadline": "Today, 14:00",
+      "photoReq": true,
+      "gpsReq": true,
+      "status": "Pending",
+      "progress": 0
+    },
+    {
+      "id": "task-2",
+      "title": "Address Citizen Water Logging Complaint",
+      "desc": "Visit Ward 1 Complaint Location to check choked drains after rainfall.",
+      "priority": "Critical",
+      "ward": 1,
+      "managerId": "zm-1",
+      "deadline": "Today, 12:00",
+      "photoReq": true,
+      "gpsReq": true,
+      "status": "Completed",
+      "progress": 100
+    },
+    {
+      "id": "task-3",
+      "title": "Inspect Public Toilet Sanitation",
+      "desc": "Check cleanliness, running water, and lighting facilities at Public Toilet Complex in Ward 5.",
+      "priority": "Medium",
+      "ward": 5,
+      "managerId": "zm-3",
+      "deadline": "Today, 17:00",
+      "photoReq": true,
+      "gpsReq": false,
+      "status": "Pending",
+      "progress": 40
+    },
+    {
+      "id": "task-4",
+      "title": "D2D Segregation Monitoring Campaign",
+      "desc": "Conduct spot checks on waste segregation in Ward 11 residential pockets.",
+      "priority": "Medium",
+      "ward": 11,
+      "managerId": "zm-6",
+      "deadline": "Today, 16:30",
+      "photoReq": false,
+      "gpsReq": true,
+      "status": "Pending",
+      "progress": 10
+    },
+    {
+      "id": "task-5",
+      "title": "Emergency Nallah Desilting Audit",
+      "desc": "Inspect desilting progress at main open drain line in Ward 13.",
+      "priority": "High",
+      "ward": 13,
+      "managerId": "zm-7",
+      "deadline": "Today, 13:00",
+      "photoReq": true,
+      "gpsReq": true,
+      "status": "Completed",
+      "progress": 100
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1783659696295-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sunita Rao uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:25 PM",
+      "type": "activity-pending",
+      "managerId": "zm-12"
+    },
+    {
+      "id": "notif-1783659696295-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sanjay Verma uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:25 PM",
+      "type": "activity-pending",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659696295-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rajesh Kumar uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:25 PM",
+      "type": "activity-pending",
+      "managerId": "zm-7"
+    },
+    {
+      "id": "notif-1783659696295-zm-3",
+      "title": "🚨 GPS Off Alert",
+      "body": "Priyanka Sen's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "01:25 PM",
+      "type": "gps-off",
+      "managerId": "zm-3"
+    },
+    {
+      "id": "notif-1783659696295-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Amit Patel uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:25 PM",
+      "type": "activity-pending",
+      "managerId": "zm-2"
+    },
+    {
+      "id": "notif-1783659696295-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rohan Sharma uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:25 PM",
+      "type": "activity-pending",
+      "managerId": "zm-1"
+    },
+    {
+      "id": "notif-1783659672292-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Deepak Joshi uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-11"
+    },
+    {
+      "id": "notif-1783659672292-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Anjali Gupta uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-8"
+    },
+    {
+      "id": "notif-1783659672292-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sneha Reddy uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-6"
+    },
+    {
+      "id": "notif-1783659672292-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Vikram Rao uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-4"
+    },
+    {
+      "id": "notif-1783659672292-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Priyanka Sen uploaded a Ward Inspection report at Ward Sanitation Office. Validation required.",
+      "time": "01:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-3"
+    },
+    {
+      "id": "notif-1783659600208-zm-4",
+      "title": "🚨 GPS Off Alert",
+      "body": "Vikram Rao's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "12:45 PM",
+      "type": "gps-off",
+      "managerId": "zm-4"
+    },
+    {
+      "id": "notif-1783659528202-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sunita Rao uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-12"
+    },
+    {
+      "id": "notif-1783659528201-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sanjay Verma uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659528201-zm-9",
+      "title": "🚨 GPS Off Alert",
+      "body": "Sanjay Verma's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "12:15 PM",
+      "type": "gps-off",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659528201-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rajesh Kumar uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-7"
+    },
+    {
+      "id": "notif-1783659528201-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Amit Patel uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-2"
+    },
+    {
+      "id": "notif-1783659528201-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rohan Sharma uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:15 PM",
+      "type": "activity-pending",
+      "managerId": "zm-1"
+    },
+    {
+      "id": "notif-1783659504198-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Deepak Joshi uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:05 PM",
+      "type": "activity-pending",
+      "managerId": "zm-11"
+    },
+    {
+      "id": "notif-1783659504198-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Anjali Gupta uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:05 PM",
+      "type": "activity-pending",
+      "managerId": "zm-8"
+    },
+    {
+      "id": "notif-1783659504198-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sneha Reddy uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:05 PM",
+      "type": "activity-pending",
+      "managerId": "zm-6"
+    },
+    {
+      "id": "notif-1783659504198-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Vikram Rao uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:05 PM",
+      "type": "activity-pending",
+      "managerId": "zm-4"
+    },
+    {
+      "id": "notif-1783659504198-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Priyanka Sen uploaded a Public Toilet Inspection report at Community Toilet Complex B. Validation required.",
+      "time": "12:05 PM",
+      "type": "activity-pending",
+      "managerId": "zm-3"
+    },
+    {
+      "id": "notif-1783659456193-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sunita Rao uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-12"
+    },
+    {
+      "id": "notif-1783659456193-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sanjay Verma uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659456193-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rajesh Kumar uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-7"
+    },
+    {
+      "id": "notif-1783659456193-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Amit Patel uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-2"
+    },
+    {
+      "id": "notif-1783659456193-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rohan Sharma uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-1"
+    },
+    {
+      "id": "notif-1783659456193-zm-1",
+      "title": "🚨 GPS Off Alert",
+      "body": "Rohan Sharma's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "11:45 AM",
+      "type": "gps-off",
+      "managerId": "zm-1"
+    },
+    {
+      "id": "notif-1783659444192-zm-2",
+      "title": "🚨 GPS Off Alert",
+      "body": "Amit Patel's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "11:40 AM",
+      "type": "gps-off",
+      "managerId": "zm-2"
+    },
+    {
+      "id": "notif-1783659432191-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Deepak Joshi uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:35 AM",
+      "type": "activity-pending",
+      "managerId": "zm-11"
+    },
+    {
+      "id": "notif-1783659432191-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Anjali Gupta uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:35 AM",
+      "type": "activity-pending",
+      "managerId": "zm-8"
+    },
+    {
+      "id": "notif-1783659432191-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sneha Reddy uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:35 AM",
+      "type": "activity-pending",
+      "managerId": "zm-6"
+    },
+    {
+      "id": "notif-1783659432191-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Vikram Rao uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:35 AM",
+      "type": "activity-pending",
+      "managerId": "zm-4"
+    },
+    {
+      "id": "notif-1783659432191-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Priyanka Sen uploaded a Open Depot Inspection report at Open Depot Point & Waste Heap. Validation required.",
+      "time": "11:35 AM",
+      "type": "activity-pending",
+      "managerId": "zm-3"
+    },
+    {
+      "id": "notif-1783659420191-zm-11",
+      "title": "🚨 GPS Off Alert",
+      "body": "Deepak Joshi's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "11:30 AM",
+      "type": "gps-off",
+      "managerId": "zm-11"
+    },
+    {
+      "id": "notif-1783659384187-zm-8",
+      "title": "🚨 GPS Off Alert",
+      "body": "Anjali Gupta's GPS tracking or network connection has been reported offline. Tracking paused.",
+      "time": "11:15 AM",
+      "type": "gps-off",
+      "managerId": "zm-8"
+    },
+    {
+      "id": "notif-1783659360185-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sunita Rao uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "11:05 AM",
+      "type": "activity-pending",
+      "managerId": "zm-12"
+    },
+    {
+      "id": "notif-1783659360185-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sanjay Verma uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "11:05 AM",
+      "type": "activity-pending",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659360185-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rajesh Kumar uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "11:05 AM",
+      "type": "activity-pending",
+      "managerId": "zm-7"
+    },
+    {
+      "id": "notif-1783659360185-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Amit Patel uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "11:05 AM",
+      "type": "activity-pending",
+      "managerId": "zm-2"
+    },
+    {
+      "id": "notif-1783659360185-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rohan Sharma uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "11:05 AM",
+      "type": "activity-pending",
+      "managerId": "zm-1"
+    },
+    {
+      "id": "notif-1783659336183-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Deepak Joshi uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "10:55 AM",
+      "type": "activity-pending",
+      "managerId": "zm-11"
+    },
+    {
+      "id": "notif-1783659336183-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Anjali Gupta uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "10:55 AM",
+      "type": "activity-pending",
+      "managerId": "zm-8"
+    },
+    {
+      "id": "notif-1783659336183-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sneha Reddy uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "10:55 AM",
+      "type": "activity-pending",
+      "managerId": "zm-6"
+    },
+    {
+      "id": "notif-1783659336183-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Vikram Rao uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "10:55 AM",
+      "type": "activity-pending",
+      "managerId": "zm-4"
+    },
+    {
+      "id": "notif-1783659336183-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Priyanka Sen uploaded a Citizen Complaint report at Citizen Complaint #4019 Point. Validation required.",
+      "time": "10:55 AM",
+      "type": "activity-pending",
+      "managerId": "zm-3"
+    },
+    {
+      "id": "notif-1783659312181-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sunita Rao uploaded a Public Toilet Inspection report at Public Toilet Complex A. Validation required.",
+      "time": "10:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-12"
+    },
+    {
+      "id": "notif-1783659312181-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Sanjay Verma uploaded a Public Toilet Inspection report at Public Toilet Complex A. Validation required.",
+      "time": "10:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-9"
+    },
+    {
+      "id": "notif-1783659312181-act",
+      "title": "📝 Activity Pending Review",
+      "body": "Rajesh Kumar uploaded a Public Toilet Inspection report at Public Toilet Complex A. Validation required.",
+      "time": "10:45 AM",
+      "type": "activity-pending",
+      "managerId": "zm-7"
+    }
+  ],
+  "simulationTime": "01:30 PM",
+  "simulationSpeed": "normal"
+}
